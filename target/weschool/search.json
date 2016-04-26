@@ -1,0 +1,41 @@
+{
+	"rows": [
+		{
+			"count": 2,
+			"descripe": "陈守孔, 胡潇琨, 李玲编著",
+			"name": "算法与数据结构考研试题精析＝The complete guide to algorithms and data structures for postgraduate admission test",
+			"publisher": "机械工业出版社",
+			"surplus": 1,
+			"url": "http://weschool.jking.net/book?ctrlno=440121"
+		}, {
+			"count": 4,
+			"descripe": "王国良, 鲁智勇等著",
+			"name": "信息网络安全测试与评估",
+			"publisher": "国防工业出版社",
+			"surplus": 3,
+			"url": "http://weschool.jking.net/book?ctrlno=437541"
+		}, {
+			"count": 4,
+			"descripe": "柯宏发 ... [等] 著",
+			"name": "电子装备复杂电磁环境适应性试验与评估＝Test and evaluation on adaptability of electronic equipment to complex electromagnetic environment",
+			"publisher": "国防工业出版社",
+			"surplus": 3,
+			"url": "http://weschool.jking.net/book?ctrlno=436924"
+		}, {
+			"count": 4,
+			"descripe": "杨俊 ... [等] 著",
+			"name": "卫星导航终端测试评估技术与应用＝Technology and application of satellite navigation test and evaluation",
+			"publisher": "国防工业出版社",
+			"surplus": 3,
+			"url": "http://weschool.jking.net/book?ctrlno=436840"
+		}, {
+			"count": 3,
+			"descripe": "张鸣鸣著",
+			"name": "农村公共产品效率的检验与实践＝The test and practice of the efficiency of rural public goods",
+			"publisher": "社会科学文献出版社",
+			"surplus": 2,
+			"url": "http://weschool.jking.net/book?ctrlno=435685"
+		}
+	],
+	"total": 266
+}

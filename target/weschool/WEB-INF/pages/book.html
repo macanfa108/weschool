@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>图书详情</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../../css/mui.min.css">
+		<style type="text/css">
+			p.bookContent {
+				font-size: 16px;
+				color: #666;
+			}
+			.BookCollection{
+				margin-bottom:10px;	
+			}
+			
+		</style>
+		<script src="../../js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			mui.init();
+		</script>
+
+	</head>
+
+	<body>
+		<!--<h3>算法与数据结构考研试题精析＝The complete guide to algorithms and data structures for postgraduate admission test</h3>-->
+		<ul class="mui-table-view">
+			<!-- 图书名 -->
+			<li class="mui-table-view-cell">算法与数据结构考研试题精析＝The complete guide to algorithms and data structures for postgraduate admission test</li>
+			<!-- 作者 -->
+			<li class="mui-table-view-cell">作者：李晓斌编著</li>
+			<!-- 出版社 -->
+			<li class="mui-table-view-cell">出版社：北京：电子工业出版社</li>
+			<!-- 出版日期 -->
+			<li class="mui-table-view-cell">出版日期：2015.06</li>
+			<!-- ISBN -->
+			<li class="mui-table-view-cell">国际标准书号ISBN：9787111426516</li>
+			<!-- 价格 -->
+			<li class="mui-table-view-cell">价格：CNY69.80 (含光盘)</li>
+			<!-- 图书简介 -->
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">图书简介:</a>
+				<div class="mui-collapse-content">
+					<p class='bookContent'>
+						本书分为四篇,第一篇初入职场:以实际案例讲解了性能测试的核心概念,以及Vugen、Control、Analysis、JMeter、ab等性能测试工具的使用,还有接口测试和典型协议脚本的开发;第二篇新硎初试:以.NET技术为背景,讲解一个全新的项目如何进行性能测试与分析调优。第三篇再露锋芒:通过一个完整的综合性案例讲解了Java应用的项目测试流程,同时还讲解了性能测试的安全问题。第四篇反躬自省:给出性能测试从基础到高级的自学最佳实践路线。
+					</p>
+				</div>
+			</li>
+		</ul>
+		<ul class="mui-table-view">
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="javascript:;">藏书情况：</a>
+				<div class="mui-collapse-content">
+					<div class=" mui-card BookCollection">
+						<ul class="mui-table-view">
+							<!-- 图书名 -->
+							<li class="mui-table-view-cell">馆藏地:310新书借阅区</li>
+							<!-- 作者 -->
+							<li class="mui-table-view-cell">索取号：TP393.092.2/L351a</li>
+							<!-- 出版社 -->
+							<li class="mui-table-view-cell">状态：2016.01.18 应还</li>
+						</ul>
+					</div>
+					<div class=" mui-card BookCollection">
+						<ul class="mui-table-view">
+							<!-- 图书名 -->
+							<li class="mui-table-view-cell">馆藏地:310新书借阅区</li>
+							<!-- 作者 -->
+							<li class="mui-table-view-cell">索取号：TP393.092.2/L351a</li>
+							<!-- 出版社 -->
+							<li class="mui-table-view-cell">状态：2016.01.18 应还</li>
+						</ul>
+					</div>
+					<div class=" mui-card BookCollection">
+						<ul class="mui-table-view">
+							<!-- 图书名 -->
+							<li class="mui-table-view-cell">馆藏地:310新书借阅区</li>
+							<!-- 作者 -->
+							<li class="mui-table-view-cell">索取号：TP393.092.2/L351a</li>
+							<!-- 出版社 -->
+							<li class="mui-table-view-cell">状态：2016.01.18 应还</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+
+		</ul>
+		
+		<!--<table>
+			<tr>
+				<th>馆藏地</th>
+				<th>索取号</th>
+				<th>状态</th>
+			</tr>
+			<c:forEach items="${bookInfo.locations}" var="location">
+				<tr>
+					<td>310新书借阅区</td>
+					<td>TP393.092.2/L351a</td>
+					<td>2016.01.18 应还</td>
+				</tr>
+				<tr>
+					<td>310新书借阅区</td>
+					<td>TP393.092.2/L351a</td>
+					<td>2016.01.18 应还</td>
+				</tr>
+				<tr>
+					<td>310新书借阅区</td>
+					<td>TP393.092.2/L351a</td>
+					<td>2016.01.18 应还</td>
+				</tr>
+			</c:forEach>
+		</table>-->
+
+	</body>
+
+</html>

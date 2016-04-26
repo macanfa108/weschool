@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<style type="text/css">
+			input[type=search] {
+			background-color: #fff;
+			}
+			.mui-bar-nav ~ .mui-content {  
+				 padding-top: 40px;  
+				 }  
+			.mui-btn-block{
+				padding:5px 0;
+				color: #000;
+				background-color: #F7F7F7;
+			}
+			.mui-focusin > .mui-bar-nav{
+				position:fixed;
+			}
+			.mui-navigate-right {
+				padding-right: 60px!important;
+			}
+			#loadingBtn{
+				
+				color:#666;
+			}
+		</style>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="js/gopage.js" type="text/javascript" charset="utf-8"></script>-->
+		
+	</head>
+
+	<body>
+		<!--<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">图书检索</h1>
+		</header>-->
+		<header class=" mui-bar mui-bar-nav">
+				<!--搜索框-->
+				<div class="mui-input-row mui-search">
+					<input type="search"  id='search' class="mui-input-clear" placeholder="请输入要检索的图书" name='search'>
+				</div>
+			</header>
+			
+		<!--主体-->
+		<div class="mui-content">
+			
+				<!--信息列表-->
+				<ul class="mui-table-view" id='main-table-view'>
+					
+				</ul>
+				<!--加载按钮-->
+				<button id='loadingBtn' type="button" class="mui-btn  mui-btn-outlined mui-btn-block" style='margin:10px auto;'>加载更多...</button>
+		<!--	</div>-->
+
+		</div>
+		<!--主体-->
+		
+	</body>
+
+</html>
